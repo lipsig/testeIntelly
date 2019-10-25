@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FERRAGEM</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+
+  <script type="text/javascript" src="server.json"></script>
+</head>
+
+<body>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <h1>Tabela Encomendas</h1>
+      <br>
+      <div class="table-responsive">
+        <table id="example" class="table table-striped table-bordered" style="width:100%">
+          <thead>
+            <tr style="text-align:center;">
+              <th style="font-size:20px; font-weight:bold;">Codigo</th>
+              <!-- <th style="font-size:20px; font-weight:bold;">Imagem do Produto</th> -->
+              <th style="font-size:20px; font-weight:bold;">Cliente</th>
+              <th style="font-size:20px; font-weight:bold;">Valor</th>
+              <th style="font-size:20px; font-weight:bold;">Valor Final</th>
+              <th style="font-size:20px; font-weight:bold;">Data Entrega</th>
+            </tr>
+          </thead>
+          <tbody class="aqui" style="text-align:center;">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <h6>Foi usado javascript, css e html</h6>
+    <h6>Foram usadas bibliotecas jQuery, Bootrap e datatable</h6>
+    <h6>*Clicar sobre o registro da tabela pra puxar as transações do cliente</h6>
+    <h6>*Alert se abrirá com registros</h6>
+  </div>
+
+</body>
+
+<!-- importando js -->
+<script src="teste.js"></script>
+
+</html>
